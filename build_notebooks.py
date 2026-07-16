@@ -42,16 +42,6 @@ In this session we'll measure the *systematic risk* of three household-name stoc
 | 6 | Interpreting the output: why the betas differ | 6 min |
 | 7 | Sanity check + bonus: rolling beta | 3 min |
 
-### Our examples
-
-Three companies everyone knows, against the **S&P 500** (`^GSPC`):
-
-- **Carnival** (`CCL`) — cruise lines
-- **Disney** (`DIS`) — media, parks, streaming
-- **Coca-Cola** (`KO`) — beverages
-
-**Sample: 7 years of daily prices (July 2019 – June 2026).** That window is roughly one full economic cycle — late-cycle expansion, the COVID recession, the stimulus-fueled recovery, the 2022 rate-hike bear market, and the expansion since. Measuring beta over a full cycle matters: a window that only covers a bull market can badly misstate how a stock behaves when the economy turns.
-
 > **Follow along:** run each cell yourself with `Shift + Enter`. If you fall behind, don't worry — every cell runs independently of the discussion.""")
 
 # ---------------------------------------------------------------------------
@@ -80,7 +70,17 @@ $$ \\beta = \\frac{\\mathrm{Cov}(R_{stock},\\ R_{market})}{\\mathrm{Var}(R_{mark
 | β > 1 | Amplifies market moves (more systematic risk) |
 | β ≈ 1 | Moves with the market |
 | 0 < β < 1 | Dampens market moves (defensive) |
-| β < 0 | Moves against the market (rare) |
+| β < 0 | Moves against the market (rare) |""")
+
+md("""### Our examples
+
+Three companies everyone knows, against the **S&P 500** (`^GSPC`):
+
+- **Carnival** (`CCL`) — cruise lines
+- **Disney** (`DIS`) — media, parks, streaming
+- **Coca-Cola** (`KO`) — beverages
+
+**Sample: 7 years of daily prices (July 2019 – June 2026).** That window is roughly one full economic cycle — late-cycle expansion, the COVID recession, the stimulus-fueled recovery, the 2022 rate-hike bear market, and the expansion since. Measuring beta over a full cycle matters: a window that only covers a bull market can badly misstate how a stock behaves when the economy turns.
 
 > **Quick check:** before we compute anything — rank Carnival, Disney, and Coca-Cola by beta, highest to lowest. What's your reasoning? Keep your ranking in mind; we'll see who's right.""")
 
