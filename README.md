@@ -2,7 +2,7 @@
 
 A hands-on lesson for early to mid-career finance professionals on calculating a stock's **beta** from historical price data using `pandas` and `statsmodels`.
 
-We regress daily log returns of three household-name stocks over a full economic cycle (July 2019 – June 2026), then interpret the OLS output: what beta means, how the regression slope maps to systematic risk, why the betas of 3 companies differ, and how beta feeds the Capital Asset Pricing Model (CAPM) cost of equity.
+We regress daily log returns of 3 household-name stocks over a full economic cycle (July 2019 – June 2026), then interpret the OLS output: what beta means, how the regression slope maps to systematic risk, why the betas of 3 companies differ, and how beta feeds the Capital Asset Pricing Model (CAPM) cost of equity.
 
 ## What's in this repo
 
