@@ -2,7 +2,7 @@
 name = "calculating-beta-python-lesson"
 version = "1.0.0"
 description = "Wall Street Prep lesson: calculating beta from historical price data with pandas and statsmodels"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "pandas>=2.0",
     "numpy>=1.26",

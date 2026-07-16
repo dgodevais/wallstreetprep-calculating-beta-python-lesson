@@ -51,7 +51,7 @@ cd wallstreetprep-calculating-beta-python-lesson
 uv sync
 ```
 
-`uv sync` reads `pyproject.toml`, downloads a compatible Python interpreter if you don't have one, creates a virtual environment in `.venv/`, and installs the exact library versions pinned in `uv.lock`.
+`uv sync` reads `pyproject.toml`, downloads a compatible Python 3.12+ interpreter if you don't have one, creates a virtual environment in `.venv/`, and installs the exact library versions pinned in `uv.lock`.
 
 ### 3. Launch the notebook
 
